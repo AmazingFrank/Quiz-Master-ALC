@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context="com.example.paparazzi.quizmaster.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="GENERAL KNOWLEDGE                                      All Question carries Equal Mark             ( 2 Marks )"
+            android:textColor="#fff"
+            android:background="#024246"
+            android:textSize="22dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginBottom="10dp">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:background="@drawable/user"/>
+
+        <EditText
+            android:id="@+id/edit_text_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Name"
+            android:inputType="textCapWords"
+            android:textSize="22sp"
+            android:textColor="#fd5af8"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="16dp"
+            android:textColorHint="#fff"/>
+        </LinearLayout>
+
+//Question One
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="16dp"
+        android:background="#d299c0c9">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Question 1"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:textColor="#fff"
+            android:background="#38befc"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Who was the first man to fly around the earth with a spaceship?"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:padding="8dp"
+            android:fontFamily="monospace"
+            android:textStyle="bold"/>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#d3dcde"/>
+
+          <RadioGroup
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content">
+              <RadioButton
+                  android:id="@+id/qone_first_radio_button"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Robert Oppenheimer"
+                  android:textSize="18sp"
+                  android:textColor="#000"
+                  android:fontFamily="serif"/>
+
+              <RadioButton
+                  android:id="@+id/qone_sec_radio_button"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Gagarin"
+                  android:textSize="18sp"
+                  android:textColor="#000"
+                  android:fontFamily="serif"/>
+              <RadioButton
+                  android:id="@+id/qone_third_radio_button"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:text="Bill Cosby"
+                  android:textSize="18sp"
+                  android:textColor="#000"
+                  android:fontFamily="serif"/>
+          </RadioGroup>
+
+    </LinearLayout>
+//Question Two
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#d299c0c9">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question 2"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textColor="#fff"
+                android:background="#38befc"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="On which hemisphere were the most dinosaur skeletons found?"
+                android:textSize="18sp"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:fontFamily="monospace"
+                android:textStyle="bold"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#d3dcde"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/qtwo_first_radio_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The northern hemisphere"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:fontFamily="serif"/>
+
+                <RadioButton
+                    android:id="@+id/qtwo_sec_radio_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="The Southern hemisphere"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:fontFamily="serif"/>
+            </RadioGroup>
+
+        </LinearLayout>
+ // Question Three
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#d299c0c9">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question 3"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textColor="#fff"
+                android:background="#38befc"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What is the organ that is affected when one is suffering from hepatitis?"
+                android:textSize="18sp"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:fontFamily="monospace"
+                android:textStyle="bold"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#d3dcde"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/qthree_first_radio_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Kidney"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:fontFamily="serif"/>
+
+                <RadioButton
+                    android:id="@+id/qthree_sec_radio_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Liver"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:fontFamily="serif"/>
+            </RadioGroup>
+
+        </LinearLayout>
+// Question Four
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#d299c0c9">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question 4"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textColor="#fff"
+                android:background="#38befc"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Who is the father of the atomic bomb?"
+                android:textSize="18sp"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:fontFamily="monospace"
+                android:textStyle="bold"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#d3dcde"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/qfour_first_radio_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Alan Shepard"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:fontFamily="serif"/>
+
+                <RadioButton
+                    android:id="@+id/qfour_sec_radio_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Robert Oppenheimer"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:fontFamily="serif"/>
+            </RadioGroup>
+        </LinearLayout>
+
+// Question Five
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#d299c0c9">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question 5"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textColor="#fff"
+                android:background="#38befc"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What are the three primary colors?"
+                android:textSize="18sp"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:fontFamily="monospace"
+                android:textStyle="bold"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#d3dcde"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/qfive_first_radio_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Yellow, Orange, Green"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:fontFamily="serif"/>
+
+                <RadioButton
+                    android:id="@+id/qfive_sec_radio_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Red, Blue, Green"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:fontFamily="serif"/>
+                <RadioButton
+                    android:id="@+id/qfive_third_radio_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Blue, yellow and red"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:fontFamily="serif"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+// Question Six
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#d299c0c9">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question 6"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textColor="#fff"
+                android:background="#38befc"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Who discoved one of the first antibiotics: penicillin ?"
+                android:textSize="18sp"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:fontFamily="monospace"
+                android:textStyle="bold"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#d3dcde"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/qsix_first_radio_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Alexander Fleming"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:fontFamily="serif"/>
+
+                <RadioButton
+                    android:id="@+id/qsix_sec_radio_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Robert Philip"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:fontFamily="serif"/>
+            </RadioGroup>
+        </LinearLayout>
+
+// Question Seven
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#d299c0c9">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question 7"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textColor="#fff"
+                android:background="#38befc"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Which of the following elements are used to form water?"
+                android:textSize="18sp"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:fontFamily="monospace"
+                android:textStyle="bold"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#d3dcde"/>
+
+            <CheckBox
+                android:id="@+id/qseven_first_checkbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Oxygen"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:fontFamily="serif" />
+
+            <CheckBox
+                android:id="@+id/qseven_sec_checkbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hydrogen"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:fontFamily="serif" />
+
+            <CheckBox
+                android:id="@+id/qseven_third_checkbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nitrogen"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:fontFamily="serif" />
+        </LinearLayout>
+
+// Question Eight
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#d299c0c9">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question 8"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textColor="#fff"
+                android:background="#38befc"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What is the name of the network of computers from which the Internet has emerged?"
+                android:textSize="18sp"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:fontFamily="monospace"
+                android:textStyle="bold"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#d3dcde"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/qeight_first_radio_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Arpanet"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:fontFamily="serif"/>
+
+                <RadioButton
+                    android:id="@+id/qeight_sec_radio_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cisco Network"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:fontFamily="serif"/>
+            </RadioGroup>
+        </LinearLayout>
+// Question Nine
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#d299c0c9">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question 9"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textColor="#fff"
+                android:background="#38befc"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="What is the name of the German airline?"
+                android:textSize="18sp"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:fontFamily="monospace"
+                android:textStyle="bold"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#d3dcde"/>
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <RadioButton
+                    android:id="@+id/qnine_first_radio_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Emirate"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:fontFamily="serif"/>
+
+                <RadioButton
+                    android:id="@+id/qnine_sec_radio_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="United Airline"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:fontFamily="serif"/>
+                <RadioButton
+                    android:id="@+id/qnine_third_radio_button"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Lufthansa"
+                    android:textSize="18sp"
+                    android:textColor="#000"
+                    android:fontFamily="serif"/>
+            </RadioGroup>
+
+        </LinearLayout>
+
+// Question Ten
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="#d299c0c9">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Question 10"
+                android:textAlignment="center"
+                android:textSize="22sp"
+                android:textColor="#fff"
+                android:background="#38befc"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Which of the foolowing are present in the outer space?"
+                android:textSize="18sp"
+                android:textColor="#fff"
+                android:padding="8dp"
+                android:fontFamily="monospace"
+                android:textStyle="bold"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#d3dcde"/>
+
+            <CheckBox
+                android:id="@+id/qten_first_checkbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gas"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:fontFamily="serif" />
+
+            <CheckBox
+                android:id="@+id/qten_sec_checkbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Radiation"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:fontFamily="serif" />
+
+            <CheckBox
+                android:id="@+id/qten_third_checkbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Air"
+                android:textSize="18sp"
+                android:textColor="#000"
+                android:fontFamily="serif" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:text="Thanks for taking part, Hope you will have a great score"
+            android:textColor="#fff"
+            android:background="#bd03713a"
+            android:textSize="16sp"
+            android:textAlignment="center"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginBottom="16dp"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="26dp"
+            android:layout_marginLeft="26dp"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="Submit Anwser"
+                android:textSize="18sp"
+                android:layout_alignParentLeft="true"
+                android:textColor="@color/btn_text_color"
+                android:onClick="submitAnswers"
+                android:background="#3bc5d7"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:text="View Anwsers"
+                android:textSize="18sp"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/btn_text_color"
+                android:onClick="viewAnswers"
+                android:background="#0c8e3b"/>
+        </RelativeLayout>
+    </LinearLayout>
+</ScrollView>
